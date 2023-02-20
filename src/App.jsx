@@ -3,6 +3,7 @@ import './App.css'
 import { FcSearch } from 'react-icons/fc'
 import axios from 'axios'
 import { weatherIcons } from './helper/weatherIcons'
+import { FaTemperatureLow } from 'react-icons/fa'
 
 function App() {
   const apiKey = import.meta.env.VITE_API_KEY
